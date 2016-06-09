@@ -115,7 +115,7 @@
 
 .iiisprite {
 	display: block;
-	background: url("https://chromelabs.org/css/sprite.png") no-repeat top left;
+	background: url("https://raw.githubusercontent.com/sup27/build/master/img/sprite.png") no-repeat top left;
 }
 
 .iiisprite.close:hover {
