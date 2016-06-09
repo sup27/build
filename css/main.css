@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* Shadow Page */
+
+.iiishadow {
+	display: block;
+	position: fixed;
+	z-index: 999899;
+	opacity: 0.5;
+	
+	width: 100%;
+	height: 150%;
+	
+	left: 0;
+	right: 0;
+	top: 0;
+	
+	background-color: black;
+}
+
+/* Box */
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.iiibox {
+	display: block;
+	position: fixed;
+	width: 100%;
+	z-index: 999999;
+
+    background: linear-gradient(to bottom, #FDEDA8, #FAE692);
+	border-bottom: 1px solid #AAAAAB;
+	
+	font-size: 14.33px;
+	font-family: 'Open Sans', sans-serif;
+	
+	left: 0;
+	top: 0;
+	right: 0;
+	
+	padding: 4px 12px 3px 8px;
+}
+
+/* Rows */
+
+.iiimsg {
+	float: left;
+	cursor: default;
+	
+	width: 100%;
+	height: 100%;
+
+	margin-top: 7px;
+	margin-right: 11px;
+	
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	user-select: none;
+	-webkit-user-select: none;
+	
+	font-size: 14.33px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.iiicon {
+	float: left;
+}
+
+.iiibutton {
+	float: left;
+}
+
+.iiiclose {
+	float: right;
+}
+
+/* Button */
+
+.iiibutton button {
+	height: 30px;
+
+	border: 1px solid #988D63;
+	border-radius: 3px;
+	
+	font-size: 14.33px;
+	font-family: 'Open Sans', sans-serif;
+
+	padding: 1px 7px;
+	margin: 0;
+	
+	outline: none;
+    background: linear-gradient(to top, #FBEDB0, #FFFAE8);
+}
+
+.iiibutton button:hover {
+	outline: none;
+	border-color: #4C4631;
+}
+
+.iiibutton button:active {
+	outline: none;
+	background: linear-gradient(to top, #FEF9E3, #FDF1BB);
+	color: #062D91;
+}
+
+.iiibutton button:first-child {
+	margin-right: 4px;
+}
+
+/* Sprite */
+
+.iiisprite {
+	display: block;
+	background: url("https://chromelabs.org/css/sprite.png") no-repeat top left;
+}
+
+.iiisprite.close:hover {
+	background-position: 0 0;
+	
+	margin-top: 7px;
+	margin-right: 16px;
+	
+	width: 17px;
+	height: 17px;
+}
+
+.iiisprite.close {
+	background-position: -17px 0;
+	
+	margin-top: 10px;
+	margin-right: 20px;
+	
+	width: 10px;
+	height: 10px;
+}
+
+.iiisprite.icon {
+	background-position: -28px 0;
+	
+	margin-top: 4px;
+	margin-right: 7px;
+	
+	width: 21px;
+	height: 22px;
+}
+
+/* Size */
+
+@media only screen and (max-width: 355px) {
+	.iiibutton button:last-child {
+		width: 100px;
+		
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+@media only screen and (max-width: 385px) {
+	.iiiclose {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 421px) {
+	.iiimsg {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 422px) {
+	.iiimsg {
+		max-width: 5%;
+	}
+}
+
+@media only screen and (min-width: 442px) {
+	.iiimsg {
+		max-width: 10%;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	.iiimsg {
+		max-width: 20%;
+	}
+}
+
+@media only screen and (min-width: 535px) {
+	.iiimsg {
+		max-width: 25%;
+	}
+}
+
+@media only screen and (min-width: 571px) {
+	.iiimsg {
+		max-width: 30%;
+	}
+}
+
+@media only screen and (min-width: 615px) {
+	.iiimsg {
+		max-width: 35%;
+	}
+}
+
+@media only screen and (min-width: 666px) {
+	.iiimsg {
+		max-width: 40%;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.iiimsg {
+		max-width: 43%;
+	}
+}
+
+@media only screen and (min-width: 725px) {
+	.iiimsg {
+		max-width: 45%;
+	}
+}
+
+@media only screen and (min-width: 766px) {
+	.iiimsg {
+		max-width: 48%;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.iiimsg {
+		max-width: 50%;
+	}
+}
+
+@media only screen and (min-width: 825px) {
+	.iiimsg {
+		width: auto;
+		max-width: none;
+	}
+}
